@@ -9,6 +9,9 @@ namespace Tarea_4._3_Transacción_desde_un_lenguaje_de_programación.DAO
 {
     internal class Conexion
     {
+        /// <summary>
+        /// Aqui se hace la conexión con la base de datos
+        /// </summary>
         private readonly string cadena = "Server=localhost;Database=VENTAS;Uid=root;Pwd=Tacodeguayaba16;";
 
         public MySqlConnection GetConnection()
