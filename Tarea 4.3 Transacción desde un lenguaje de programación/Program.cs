@@ -11,7 +11,7 @@ namespace Tarea_4._3_Transacción_desde_un_lenguaje_de_programación
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new FrmGestionProductos());
         }
     }
 }

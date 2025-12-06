@@ -10,9 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DAO\" />
-    <Folder Include="Forms\" />
-    <Folder Include="Modelos\" />
+    <PackageReference Include="MySql.Data" Version="9.5.0" />
   </ItemGroup>
 
 </Project>
